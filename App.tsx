@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, Button } from 'react-native';
 
-
 const App = () => {
   const [counter, setCounter] = useState<number>(0);
 
@@ -33,6 +32,5 @@ const App = () => {
     </View>
   );
 };
-
 
 export default App;
